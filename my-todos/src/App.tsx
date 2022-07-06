@@ -1,12 +1,11 @@
 import { AppProvider } from "./contexts/app-provider";
-import { useTheme } from "./hooks/use-theme";
+
+import { Home } from "./pages";
 
 export const App = () => {
-  // const {} = useTheme();
-
   return (
     <AppProvider>
-      <h1>App</h1>
+      <Home />
     </AppProvider>
   );
 };
