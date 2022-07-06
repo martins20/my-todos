@@ -15,11 +15,17 @@ export const GlobalStyle = createGlobalStyle`
         color: ${({ theme }) => theme.dynamic.gray100};
 
         font-family: "Inter", helvetica, sans-serif;
-        font-size: 400
+        font-size: 400;
+        line-height: 1.4
     }
 
     input, button, textarea {
         font-family: "Inter", helvetica, sans-serif;
-        font-size: 400
+        font-size: 400;
+        line-height: 1.4
+    }
+
+    button { 
+        cursor: pointer
     }
 `;
