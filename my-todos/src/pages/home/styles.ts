@@ -23,6 +23,7 @@ export const Content = styled.section`
     align-items: center;
 
     gap: 0.5rem;
+    margin-bottom: 4rem;
 
     > button {
       display: flex;
