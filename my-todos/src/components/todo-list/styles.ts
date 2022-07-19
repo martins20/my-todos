@@ -6,6 +6,13 @@ export const Container = styled.section`
     align-items: center;
     justify-content: space-between;
   }
+
+  > main {
+    margin-top: 2rem;
+    height: 100%;
+
+    overflow-y: auto;
+  }
 `;
 
 export const CreatedTaskContainer = styled.section`
